@@ -1,0 +1,63 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("148161_choinka_swieta_zima.jpg");
+}
+header {
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+.active a:hover{
+    background: white;
+    color: rgb(6,4,46);
+}
+.box{
+    color: white;
+    text-align: center;
+    float: bottom;
+    margin: 150px;
+    padding: 30px;
+    background: rgb(6,4,46);
+    opacity: 80%;
+}
+.img{
+    background: rgb(240,255,255);
+    color: black;
+    padding: 30px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+figcaption{
+    color: black;
+}
